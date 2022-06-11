@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="23px" viewBox="0 0 20 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 11备份 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.311444257%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B0DEFF" offset="0%"></stop>
+            <stop stop-color="#328AD3" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="11 0 20.5262794 5.5 20.5262794 16.5 11 22 1.47372056 16.5 1.47372056 5.5"></polygon>
+        <filter x="4.4%" y="-2.3%" width="91.1%" height="109.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0418788696   0 0 0 0 0.323081443   0 0 0 0 0.717532835  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#63CFFF" offset="0%"></stop>
+            <stop stop-color="#3B64C2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="销售数据-2备份" transform="translate(-67.000000, -968.000000)">
+            <g id="编组-11备份-3" transform="translate(66.000000, 968.000000)">
+                <g id="多边形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <polygon id="多边形备份" fill="url(#linearGradient-4)" points="11 4 17.0621778 7.5 17.0621778 14.5 11 18 4.93782217 14.5 4.93782217 7.5"></polygon>
+                <text id="4" font-family="BebasNeueBold, Bebas Neue" font-size="11" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="9" y="15">4</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

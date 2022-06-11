@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="44px" viewBox="0 0 46 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3" width="46" height="38"></rect>
+        <filter x="-8.7%" y="-10.5%" width="117.4%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0691049408   0 0 0 0 0.28610826   0 0 0 0 0.581097147  0 0 0 0.7 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="1.54879196e-05 0 23.980763 0 23.980763 23.0656552 1.54879196e-05 23.0656552"></polygon>
+        <linearGradient x1="99.6895817%" y1="4.0299894%" x2="0.355725297%" y2="95.9161356%" id="linearGradient-5">
+            <stop stop-color="#2BEDE8" offset="0%"></stop>
+            <stop stop-color="#00BAFF" offset="99.9736064%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="农林农况" transform="translate(-66.000000, -909.000000)">
+            <g id="编组-2" transform="translate(20.000000, 90.000000)">
+                <g id="编组-4" transform="translate(30.000000, 72.000000)">
+                    <g id="农业补贴" transform="translate(16.000000, 742.000000)">
+                        <g id="编组-10" transform="translate(0.000000, 5.000000)">
+                            <polygon id="矩形" fill="#417FC8" points="7.27623517e-12 0 46 0 46 1 7.27623517e-12 1"></polygon>
+                            <polygon id="矩形" fill="#417FC8" points="0 43 46 43 46 44 0 44"></polygon>
+                            <g id="矩形">
+                                <use fill="#0D162C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icon-大豆" transform="translate(11.000000, 10.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M7.7345931,7.14104828 C7.7345931,7.14104828 12.3984552,9.56228966 16.3362483,8.64808276 C16.3362483,8.64808276 24.2926621,6.09815172 23.9712828,15.2071172 C23.9712828,15.2071172 22.4881103,25.9752552 8.32976552,22.3017379 C8.32976552,22.3017379 -2.30030345,18.5948414 0.456524138,8.83856552 C0.456524138,8.83856552 1.27073103,6.85056552 3.48728276,6.91718621 C3.48728276,6.91718621 0.535144828,3.81746207 3.19914483,0.9416 C4.61804138,-0.596468966 12.8008,-1.11784828 12.5365241,6.37208276 C12.5365241,6.37208276 5.76093793,6.08394483 3.5705931,1.96284138 C3.5705931,1.96284138 2.18493793,2.7913931 4.52769655,6.89111724 C4.53004138,6.8958069 5.76328276,6.52435862 7.7345931,7.14104828 Z" id="Fill-1" fill="url(#linearGradient-5)" mask="url(#mask-4)" transform="translate(11.990389, 11.532818) scale(-1, 1) translate(-11.990389, -11.532818) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,4 +1,10 @@
-# farm-iot-screen
+# 农业物联网大数据展示平台
+
+## 账号密码
+```
+13333333333
+1234c56ab
+```
 
 ## Project setup
 ```
@@ -14,6 +20,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

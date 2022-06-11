@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="44px" viewBox="0 0 46 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon-油料 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3" width="46" height="38"></rect>
+        <filter x="-8.7%" y="-10.5%" width="117.4%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0691049408   0 0 0 0 0.28610826   0 0 0 0 0.581097147  0 0 0 0.7 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="4.19175422e-05 3.78787879e-05 20.2022647 3.78787879e-05 20.2022647 24.8994949 4.19175422e-05 24.8994949"></polygon>
+        <linearGradient x1="82.7107966%" y1="0.310378155%" x2="17.3190291%" y2="99.6313876%" id="linearGradient-5">
+            <stop stop-color="#2BEDE8" offset="0%"></stop>
+            <stop stop-color="#00BAFF" offset="99.9736064%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="农林农况" transform="translate(-276.000000, -983.000000)">
+            <g id="编组-2" transform="translate(20.000000, 90.000000)">
+                <g id="编组-4" transform="translate(30.000000, 72.000000)">
+                    <g id="金额1备份" transform="translate(226.000000, 816.000000)">
+                        <g id="icon-油料-2" transform="translate(0.000000, 5.000000)">
+                            <polygon id="矩形" fill="#417FC8" points="7.27623517e-12 0 46 0 46 1 7.27623517e-12 1"></polygon>
+                            <polygon id="矩形" fill="#417FC8" points="0 43 46 43 46 44 0 44"></polygon>
+                            <g id="矩形">
+                                <use fill="#0D162C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icon-油料" transform="translate(13.000000, 10.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M17.3122475,15.2778157 L17.3122475,15.3836237 C17.3122475,15.0130429 17.0119949,14.7127904 16.6415404,14.7127904 C16.2710859,14.7127904 15.9707071,15.0130429 15.9707071,15.3836237 L15.9565657,15.3836237 L15.9660354,15.4324874 C15.9657828,15.5211237 15.9824495,15.6088763 16.0150253,15.6913258 C16.2217172,17.0179672 15.8583333,18.3702399 15.0142677,19.4145581 C14.0906566,20.5600126 12.6484848,21.1581187 11.1854798,21.0023106 L11.1854798,21.0338763 L11.1332071,21.0338763 C10.8708333,21.0362753 10.6337121,21.1908207 10.5256313,21.4299621 C10.4119949,21.6730177 10.440404,21.9590025 10.5998737,22.1749116 C10.7542929,22.3858965 11.0183081,22.4860227 11.2737374,22.4305934 C11.4,22.4400631 11.5262626,22.4463763 11.6540404,22.4463763 C13.3935606,22.4358965 15.0324495,21.6293308 16.1017677,20.2573611 C17.2037879,18.848649 17.6474747,17.0345076 17.3200758,15.2761742 L17.3122475,15.2778157 Z M20.2022647,14.7963763 C20.2031566,20.3750379 15.6818182,24.8982702 10.1031566,24.899533 C4.52449495,24.9006692 0.00113636363,20.3790783 4.19175402e-05,14.8005429 L4.19175402e-05,14.7963763 C-0.0108585859,12.0389268 1.05151515,9.38539141 2.9625,7.39738636 L10.1011364,3.78787879e-05 L17.2444444,7.3942298 C19.1544192,9.38375 20.2151515,12.038548 20.2022647,14.7963763 L20.2022647,14.7963763 Z" id="Fill-1" fill="url(#linearGradient-5)" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

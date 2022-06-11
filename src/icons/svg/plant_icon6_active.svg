@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>仓储管理-正常icon备份</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="管理-地块-投入品" transform="translate(-1074.000000, -558.000000)">
+            <g id="仓储管理-正常icon备份" transform="translate(1074.000000, 558.000000)">
+                <circle id="椭圆形备份-8" fill="#FFFFFF" cx="30" cy="30" r="30"></circle>
+                <g id="编组" transform="translate(14.400000, 19.200000)" fill="#1478FE">
+                    <path d="M0,3.42e-05 L0,7.0108632 L1.109277,7.0108632 L1.109277,22.9268592 L31.220325,22.9268592 L31.220325,7.0045362 L32.064552,7.0045362 L32.064552,3.42e-05 L0,3.42e-05 Z M1.466325,5.5253862 L30.5919,5.5253862 L30.5919,1.4726862 L1.466325,1.4726862 L1.466325,5.5253862 Z M2.586375,21.4605342 L29.721852,21.4605342 L29.721852,7.0238592 L2.586375,7.0238592 L2.586375,21.4605342 Z" id="Fill-1"></path>
+                    <polygon id="Fill-2" points="19.748448 10.8927 28.238598 10.8927 28.238598 9.0801 19.748448 9.0801"></polygon>
+                    <polygon id="Fill-3" points="19.756827 13.795425 28.238598 13.795425 28.238598 11.97 19.756827 11.97"></polygon>
+                    <polygon id="Fill-4" points="19.754775 16.69815 28.238427 16.69815 28.238427 14.881275 19.754775 14.881275"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

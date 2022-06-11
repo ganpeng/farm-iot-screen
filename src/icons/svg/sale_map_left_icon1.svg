@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="4px" viewBox="0 0 64 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.9208475%" y1="50%" x2="0.0474614459%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#00DCFF" offset="0%"></stop>
+            <stop stop-color="#00DCFF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="销售数据-2备份" transform="translate(-655.000000, -121.000000)">
+            <g id="编组-14" transform="translate(600.000000, 110.000000)">
+                <g id="编组-12" transform="translate(55.000000, 0.000000)">
+                    <g id="编组-15" transform="translate(0.000000, 11.000000)">
+                        <circle id="椭圆形" fill="#00D8FB" cx="62" cy="2" r="2"></circle>
+                        <path d="M1,1 L61,1 C61.5522847,1 62,1.44771525 62,2 C62,2.55228475 61.5522847,3 61,3 L1,3 C0.44771525,3 6.76353751e-17,2.55228475 0,2 C-6.76353751e-17,1.44771525 0.44771525,1 1,1 Z" id="矩形备份-6" fill="url(#linearGradient-1)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

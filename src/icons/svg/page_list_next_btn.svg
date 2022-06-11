@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>下箭头</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="23" cy="23" r="23"></circle>
+        <filter x="-21.7%" y="-21.7%" width="143.5%" height="143.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.110365284   0 0 0 0 0.337312301   0 0 0 0 0.647871377  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业数据-溯源-精选集锦备份" transform="translate(-1834.000000, -733.000000)">
+            <g id="分组-3-copy" transform="translate(1857.000000, 756.000000) rotate(-270.000000) translate(-1857.000000, -756.000000) translate(1834.000000, 733.000000)">
+                <g id="下箭头" transform="translate(0.000000, -0.000000)">
+                    <g id="椭圆形">
+                        <use fill-opacity="0.597301136" fill="#0C162E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <circle stroke="#285290" stroke-width="2" stroke-linejoin="square" cx="23" cy="23" r="22"></circle>
+                    </g>
+                    <path d="M30,18 C30.5522847,18 31,18.4477153 31,19 C31,19.5522847 30.5522847,20 30,20 L17,20 L17,33 C17,33.5522847 16.5522847,34 16,34 C15.4477153,34 15,33.5522847 15,33 L15,19 C15,18.4477153 15.4477153,18 16,18 L30,18 Z" id="合并形状" fill="#70CAEE" transform="translate(23.000000, 26.000000) rotate(-315.000000) translate(-23.000000, -26.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

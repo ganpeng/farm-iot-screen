@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="100px" viewBox="0 0 280 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title></title>
+    <desc></desc>
+    <defs>
+        <polygon id="path-1" points="0 1.03389519e-13 280 1.03389519e-13 280 100 0 100"></polygon>
+        <filter x="-3.6%" y="-10.0%" width="107.1%" height="120.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.110365284   0 0 0 0 0.337312301   0 0 0 0 0.647871377  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="装饰边框颜色" transform="translate(-799.000000, -524.000000)">
+            <g id="总数备份-8" transform="translate(799.000000, 524.000000)">
+                <g id="矩形-copy-5备份">
+                    <use fill="#0B142B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <path stroke="#1F4071" stroke-width="2" d="M279,1 L1,1 L1,99 L279,99 L279,1 Z" stroke-linejoin="square"></path>
+                </g>
+                <g id="装饰四角备份" fill="#417FC8">
+                    <path d="M20,0 L20,2 L2,2 L2,20 L-1.77635684e-15,20 L1.77635684e-15,-1.8369702e-16 L20,0 Z" id="形状结合备份-4"></path>
+                    <path d="M280,0 L280,2 L262,2 L262,20 L260,20 L260,-1.8369702e-16 L280,0 Z" id="形状结合备份-3" transform="translate(270.000000, 10.000000) scale(-1, 1) translate(-270.000000, -10.000000) "></path>
+                    <path d="M20,80 L20,82 L2,82 L2,100 L-1.77635684e-15,100 L1.77635684e-15,80 L20,80 Z" id="形状结合备份-6" transform="translate(10.000000, 90.000000) scale(1, -1) translate(-10.000000, -90.000000) "></path>
+                    <path d="M280,80 L280,82 L262,82 L262,100 L260,100 L260,80 L280,80 Z" id="形状结合备份-5" transform="translate(270.000000, 90.000000) scale(-1, -1) translate(-270.000000, -90.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

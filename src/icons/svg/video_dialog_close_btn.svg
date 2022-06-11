@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title></title>
+    <desc></desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="14"></circle>
+        <filter x="-96.4%" y="-96.4%" width="292.9%" height="292.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="27" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.110365284   0 0 0 0 0.337312301   0 0 0 0 0.647871377  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="视频弹窗" transform="translate(-1274.000000, -299.000000)">
+            <g id="删除备份-2" transform="translate(1273.000000, 298.000000)">
+                <g id="椭圆形">
+                    <use fill-opacity="0.8" fill="#0B142B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M15.125,5 C15.6841883,5 16.1375,5.45331169 16.1375,6.0125 L16.137,14.112 L24.2375,14.1125 C24.7966883,14.1125 25.25,14.5658117 25.25,15.125 C25.25,15.6841883 24.7966883,16.1375 24.2375,16.1375 L16.137,16.137 L16.1375,24.2375 C16.1375,24.7966883 15.6841883,25.25 15.125,25.25 C14.5658117,25.25 14.1125,24.7966883 14.1125,24.2375 L14.112,16.137 L6.0125,16.1375 C5.45331169,16.1375 5,15.6841883 5,15.125 C5,14.5658117 5.45331169,14.1125 6.0125,14.1125 L14.112,14.112 L14.1125,6.0125 C14.1125,5.45331169 14.5658117,5 15.125,5 Z" id="合并形状" fill="#E5E7EE" transform="translate(15.125000, 15.125000) rotate(-315.000000) translate(-15.125000, -15.125000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组备份</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0196064 13.6888224 0.0196064 13.6888224 13.7084464 0 13.7084464"></polygon>
+        <polygon id="path-3" points="0 15.732464 13.688928 15.732464 13.688928 0.088 0 0.088"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新首页备份" transform="translate(-1259.000000, -226.000000)">
+            <g id="编组-15备份-7" transform="translate(1237.000000, 208.000000)">
+                <g id="编组备份" transform="translate(22.000000, 18.000000)">
+                    <g id="编组" transform="translate(0.000000, 0.068464)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M12.7111424,12.7306784 L12.7111424,6.8639824 C12.7111424,3.6373744 10.0711424,0.9973744 6.8444464,0.9973744 C3.6178384,0.9973744 0.9778384,3.6373744 0.9778384,6.8639824 L0.9778384,12.7306784 L12.7111424,12.7306784 Z M6.8444464,0.0196064 C10.6577504,0.0196064 13.6888224,3.0506784 13.6888224,6.8639824 L13.6888224,13.7084464 L-1.76e-05,13.7084464 L-1.76e-05,6.8639824 C-1.76e-05,3.0506784 3.0311424,0.0196064 6.8444464,0.0196064 L6.8444464,0.0196064 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-4)" points="0 15.732376 13.68884 15.732376 13.68884 14.754608 0 14.754608"></polygon>
+                    <polygon id="Fill-5" fill="#FFFFFF" mask="url(#mask-4)" points="4.7910984 11.1369368 5.4755624 11.8213128 10.1688664 7.0302408 6.2577944 7.0302408 9.3866344 3.9991688 8.7022584 3.3147048 3.9110984 8.0080088 7.8222584 8.0080088"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

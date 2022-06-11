@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon_female</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="农业资产-聚成-管理-成员" transform="translate(-681.000000, -177.000000)">
+            <g id="李素琴" transform="translate(480.000000, 160.000000)">
+                <g id="icon_female" transform="translate(198.000000, 16.000000)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" x="3.5" y="1.5" width="24" height="24"></rect>
+                    <g id="编组" transform="translate(14.323223, 14.323223) rotate(-135.000000) translate(-14.323223, -14.323223) translate(6.823223, 2.823223)" stroke="#A3D0FD" stroke-width="2">
+                        <path d="M7.16852455,23 C11.0345178,23 14.1685245,19.8659932 14.1685245,16 C14.1685245,14.0670034 13.3850229,12.3170034 12.118272,11.0502525 C10.8515211,9.7835017 9.10152115,9 7.16852455,9 C3.3025313,9 0.168524548,12.1340067 0.168524548,16 C0.168524548,19.8659932 3.3025313,23 7.16852455,23 Z" id="路径" stroke-linejoin="round"></path>
+                        <line x1="7.25" y1="9" x2="7.25" y2="0" id="路径"></line>
+                        <line x1="2.75" y1="5" x2="11.75" y2="5" id="路径"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

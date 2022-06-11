@@ -1,29 +1,48 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import _ from 'lodash';
+import router from './routers'
+import util from '../util/';
 
-Vue.use(VueRouter)
+// let authRouterList = ['Home', 'Sale', 'FarmStock', 'Storage', 'Internet'];
+let authPathList = ['/home/index', '/farmstock/index', '/sale/index', '/storage/index', '/internet/index'];
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+router.beforeEach((to, from, next) => {
+    let user = util.store.getLocal('login');
+    if (to.name === 'PcSpread' || to.name === 'AAA') {
+        next();
+    } else {
+        if (!_.get(user, 'token')) {
+            if (to.name !== 'Login') {
+                next({name: 'Login'});
+            } else {
+                next();
+            }
+        } else {
+            if (to.name === 'Login') {
+                next({name: 'Home'});
+            } else {
+                let roleType = _.get(user, 'roleType');
+                if ( roleType === 'FARM_OWNER' || roleType === 'FARM_EMPLOYEE') {
+                    if (_.includes(authPathList, to.path)) {
+                        let farmId = _.get(user, 'farmId')
+                        next({name: 'FarmStockSurvey', params:{ id: farmId}});
+                    } else {
+                        let farmId = _.get(user, 'farmId')
+                        let id = _.get(to, 'params.id');
+                        if (_.toString(id) !== _.toString(farmId)) {
+                            next({name: 'FarmStockSurvey', params:{ id: farmId}});
+                        } else {
+                            next();
+                        }
+                    }
+                } else {
+                    next();
+                }
+            }
+        }
+    }
+});
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
-})
+router.afterEach(() => {
+});
 
-export default router
+export default router;

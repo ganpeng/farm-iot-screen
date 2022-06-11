@@ -1,0 +1,1099 @@
+html, body {
+  font-size: 0.14rem;
+  font-weight: 400;
+  font-family: PingFangSC-Regular,PingFang SC;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url('../font/BebasNeueBold.ttf');
+}
+
+.my-font {
+  font-family: 'myFont';
+  &.gradient-num1 {
+    background-image: -webkit-linear-gradient(bottom, #61C2FF, #E0F2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/****
+  滚动条样式
+****/
+::-webkit-scrollbar {
+  // width: 4px;
+  // height: 4px;
+  display: none;
+}
+/*滑动轨道*/
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: none;
+}
+/*滑块*/
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .2);
+  background-color: rgba(255, 255, 255, .75)
+}
+/*滑块效果*/
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .2);
+  background-color: rgba(85, 85, 85, 0.4);
+}
+
+/****
+  全局title
+****/
+.title-one {
+  position: relative;
+  height: 0.30rem;
+  &.big {
+    height: 0.42rem;
+  }
+  h5 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding-left: 0.05rem;
+    display: flex;
+    align-items: center;
+    color: #70CAEE;
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    font-weight: 500;
+    .title-icon {
+      margin-right: 4px;
+    }
+    .point {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      line-height: 0.16rem;
+      border-radius: 50%;
+      background-color: #70CAEE;
+      margin-right: 0.1rem;
+    }
+    .statisitcs-icon {
+      display: inline-block;
+      width: 0.18rem;
+      height: 0.18rem;
+      margin-right: 0.04rem;
+    }
+  }
+  &.white {
+    h5 {
+      color: #fff;
+    }
+  }
+  &.small {
+    h5 {
+      font-size: 0.14rem;
+      font-weight: 400;
+    }
+  }
+  .title-border {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #172D4C;
+    margin-top: 0.1rem;
+    border-radius: 5%;
+    .gap {
+      position: absolute;
+      top: 0;
+      background-color: #4086E0;
+      width: 0.2rem;
+      height: 0.03rem;
+    }
+    .left-gap {
+      left: 0;
+    }
+    .right-gap {
+      right: 0;
+    }
+  }
+}
+
+/****
+  container样式
+****/
+.container {
+  display: flex;
+  height: calc(100% - 0.8rem);
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 100%;
+    padding: 0 0.2rem 0.2rem 0.2rem;
+    .title-wrapper {
+      position: relative;
+      display: flex;
+      height: 0.4rem;
+      .farm-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 0.4rem;
+        line-height: 0.4rem;
+        color: #f0f0f0;
+        font-size: 0.16rem;
+        font-weight: 500;
+        text-align: center;
+        background: linear-gradient(
+          270deg,
+          rgba(12, 30, 57, 0.2) 0%,
+          rgba(20, 41, 79, 1) 50%,
+          rgba(18, 41, 81, 0.1) 100%
+        );
+      }
+    }
+  }
+}
+
+/****
+  选项卡切换样式
+****/
+
+/****
+  所有的边框样式
+****/
+.border-icon {
+  background: url('../image/border_icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon1 {
+  background: url('../image/border_icon1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon2 {
+  background: url('../image/border_icon2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon3 {
+  background: url('../image/border_icon3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon4 {
+  background: url('../image/border_icon4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon5 {
+  background: url('../image/farm_detail_border.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon6 {
+  background: url('../image/border_icon6.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon7 {
+  background: url('../image/border_icon7.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon8 {
+  background: url('../image/border_icon8.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon9 {
+  background: url('../image/tab_bg_icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+// 农场简介边框
+.border-icon10 {
+  background: url('../image/border-icon10.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+// 监控视频部分的边框
+.border-icon11 {
+  background: url('../image/border-icon11.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon12 {
+  background: url('../image/border-icon12.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon13 {
+  background: url('../image/border-icon13.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon14 {
+  background: url('../image/border-icon14.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon15 {
+  background: url('../image/border-icon15.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon16 {
+  background: url('../image/border-icon16.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+// 球机摄像头
+.border-icon17 {
+  background: url('../image/border-icon17.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+// 趋势图
+.border-icon18 {
+  background: url('../image/border-icon18.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon19 {
+  background: url('../image/border-icon19.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.border-icon20 {
+  background: url('../image/border-icon20.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.title-one-header-icon {
+  background: url('../image/title_one_header_icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+// 预警bord边框
+.border-icon21 {
+  background: url('../image/border-icon21.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+// 地图中心点名称
+.border-icon22 {
+  background: url('../image/border-icon22.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+// 首页3d地图区域
+.border-icon23 {
+  background: url('../image/border-icon23.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon24 {
+  background: url('../image/border-icon24.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon25 {
+  background: url('../image/border-icon25.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon26 {
+  background: url('../image/border-icon26.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon27 {
+  background: url('../image/border-icon27.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon28 {
+  background: url('../image/border-icon28.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon29 {
+  background: url('../image/border-icon29.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon30 {
+  background: url('../image/border-icon30.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon31 {
+  background: url('../image/border-icon31.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon32 {
+  background: url('../image/border-icon32.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon33 {
+  background: url('../image/border-icon33.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon34 {
+  background: url('../image/border-icon34.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon35 {
+  background: url('../image/border-icon35.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon36 {
+  background: url('../image/border-icon36.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon37 {
+  background: url('../image/border-icon37.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon38 {
+  background: url('../image/border-icon38.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon39 {
+  background: url('../image/border-icon39.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon40 {
+  background: url('../image/border-icon40.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon41 {
+  background: url('../image/border-icon41.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon42 {
+  background: url('../image/border-icon42.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.login-bg {
+  background: url('../image/login_bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+// 首页改版后的背景图片
+.border-icon50 {
+  background: url('../image/border-icon50.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon51 {
+  background: url('../image/border-icon51.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon52 {
+  background: url('../image/border-icon52.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon53 {
+  background: url('../image/border-icon53.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+.border-icon54 {
+  background: url('../image/border-icon54.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.border-icon55 {
+  background: url('../image/manage_page.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon56 {
+  background: url('../image/border-icon56.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon57 {
+  background: url('../image/border-icon57.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon58 {
+  background: url('../image/border-icon58.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon59 {
+  background: url('../image/border-icon59.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon61 {
+  background: url('../image/border-icon61.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+.border-icon62 {
+  background: url('../image/border-icon62.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left center;
+}
+
+// 地图背景
+.map-bg1 {
+  background-image: url('../image/map_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.map-bg2 {
+  background-image: url('../image/map_bg2.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center center;
+}
+.map-bg3 {
+  background-image: url('../image/map_bg3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.map-bg4 {
+  background-image: url('../image/map_bg4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.global-map-tb-icon {
+  background-image: url('../image/global_map_tb_icon.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+// 首页农业统计小图标
+.statisitcs-icon1 {
+  background: url('../image/statisitcs-icon1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.statisitcs-icon2 {
+  background: url('../image/statisitcs-icon2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.statisitcs-icon3 {
+  background: url('../image/statisitcs-icon3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/****
+  滚动列表的相关样式
+****/
+.table-title {
+  color: #70CAEE;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-overflow {
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/****
+  视频播放器样式
+****/
+video {
+  object-fit: fill;
+  &:focus {
+    outline: none;
+  }
+}
+
+/****
+  预警颜色定义
+****/
+.up-danger {
+  color: #FF6E6E;
+}
+
+.low-danger {
+  color: #7ED321;
+}
+
+// 状态颜色
+.status-one {
+  color: #FF6E6E;
+}
+
+.status-two {
+  color: #7ED321;
+}
+
+.status-three {
+  color: #9B9B9B;
+}
+
+/****
+  图表容器样式
+****/
+.charts-container {
+  height: calc(100% - 0.42rem);
+  .charts-header {
+    font-size: 0.14rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    // color: #417fc8;
+    // color: #29E3FD;
+    color: #FFDF12;
+    i {
+      // color: #2eabff;
+      font-size: 0.3rem;
+      // margin-left: 0.06rem;
+      margin-right: 0.06rem;
+    }
+    span {
+      // color: #2eabff;
+    }
+  }
+  .charts-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100% - 0.3rem);
+    &.no-sub-title {
+      height: calc(100% - 0.7rem);
+    }
+    .ring-chart {
+      // width: 100%;
+      // height: 100%;
+      width: 1.42rem;
+      height: 1.42rem;
+    }
+  }
+}
+
+// 超过2行省略号
+.ellipsis-line2 {
+  letter-spacing: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;  /*要显示的行数*/
+  -webkit-box-orient: vertical;
+}
+
+// 超过3行省略号
+.ellipsis-line3 {
+  letter-spacing: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;  /*要显示的行数*/
+  -webkit-box-orient: vertical;
+}
+
+// 视频播放器样式重置
+.vjs-modal-dialog-content {
+  display: none!important;
+}
+.vjs-error .vjs-error-display:before {
+  display: none!important;
+}
+
+/****
+  地图闪烁效果
+****/
+.marker-container {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  .out-cycle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 28px;
+    height: 28px;
+    margin-left: -14px;
+    margin-top: -14px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0.1rem rgba(0, 0, 0, 0.75);
+    // background-color: #F9CD31;
+    opacity: 0.4;
+    animation: my-scale 2s ease-out;
+    animation-iteration-count: infinite; /*无穷反复*/
+    overflow: hidden;
+  }
+  .inner-cycle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    // background-color: #F9CD31;
+    overflow: hidden;
+    opacity: 0.9;
+  }
+  &.type-one {
+    .out-cycle  {
+      background-color: #35F0AC;
+    }
+    .inner-cycle {
+      background-color: #35F0AC;
+    }
+  }
+  &.type-two {
+    .out-cycle  {
+      background-color: #FE572F;
+    }
+    .inner-cycle {
+      background-color: #FE572F;
+    }
+  }
+  &.type-three {
+    .out-cycle  {
+      background-color: #F9CD31;
+    }
+    .inner-cycle {
+      background-color: #F9CD31;
+    }
+  }
+  &.type-four {
+    .out-cycle  {
+      background-color: #FF8A0A;
+    }
+    .inner-cycle {
+      background-color: #FF8A0A;
+    }
+  }
+}
+@keyframes my-scale {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/****
+  去掉高德地图的logo
+****/
+.amap-logo {
+  right: 0 !important;
+  left: auto !important;
+  display: none !important;
+}
+.amap-copyright {
+  right: 70px !important;
+  left: auto !important;
+  opacity:0 !important;
+}
+
+/****
+  农场销量排行
+****/
+.farm-sale-top5-list {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.2rem;
+  // background-color: #23427B;
+  border-radius: 0.04rem;
+  .farm-sale-top5-item {
+    display: flex;
+    align-items: center;
+    // height: 0.24rem;
+    height: 20%;
+    // margin-bottom: 0.08rem;
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 0.18rem;
+      margin-right: 0.05rem;
+      .svg-icon {
+        width: 0.18rem;
+        height: 0.2rem;
+      }
+    }
+    .no-icon {
+      font-size: 0.12rem;
+      background-color: #2E5395;
+      width: 0.18rem;
+      height: 0.18rem;
+      line-height: 0.18rem;
+      border-radius: 50%;
+      text-align: center;
+    }
+    .farm {
+      flex: 1;
+      font-size: 0.12rem;
+      font-weight: 400;
+      color: #F0F0F0;
+    }
+    .sale-value {
+      margin-left: 0.1rem;
+      font-size: 0.12rem;
+      font-weight: 400;
+      color: #F0F0F0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/****
+  热卖商品
+****/
+.hot-goods-top5-list {
+  width: 100%;
+  height: 100%;
+  padding: 0 0.16rem;
+  .hot-goods-top5-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    .hot-goods-top5-icon {
+      width: 0.22rem;
+      height: 0.22rem;
+      .svg-icon {
+        width: 0.22rem;
+        height: 0.22rem;
+      }
+    }
+    .content-info {
+      width: calc(100% - 0.23rem);
+      margin-left: 0.08rem;
+      .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #f0f0f0;
+        font-size: 0.12rem;
+        .name {
+          cursor: default;
+        }
+      }
+      .progress {
+        position: relative;
+        width: 100%;
+        height: 0.06rem;
+        background-color: #11233C;
+        border-radius: 0.04rem;
+        margin-top: 0.03rem;
+        .inner {
+          height: 0.06rem;
+          border-radius: 0.04rem;
+        }
+      }
+    }
+    &:nth-of-type(1) {
+      .content-info .progress .inner {
+        background-color: #6992DE;
+      }
+    }
+    &:nth-of-type(2) {
+      .content-info .progress .inner {
+        background-color: #D6B564;
+      }
+    }
+    &:nth-of-type(3) {
+      .content-info .progress .inner {
+        background-color: #DD6F46;
+      }
+    }
+    &:nth-of-type(4) {
+      .content-info .progress .inner {
+        background-color: #9258E6;
+      }
+    }
+    &:nth-of-type(5) {
+      .content-info .progress .inner {
+        background-color: #ECC94C;
+      }
+    }
+  }
+  .hot-goods-top5-item + .hot-goods-top5-item {
+    // margin-top: 0.06rem;
+  }
+}
+
+// 下拉列表样式
+.my-vue-select {
+  &.v-select {
+    width: 1.20rem;
+    height: 0.30rem;
+    .vs__dropdown-toggle {
+      height: 0.30rem;
+      padding: 0;
+      // background-color: #182F68;
+      background-image: url('../image/select_bg.png');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      border-radius: 2px;
+      .vs__selected {
+        color: #F0F0F0;
+        font-size: 0.12rem;
+        height: 0.30rem;
+        line-height: 0.30rem;
+        margin: 0;
+        padding: 0;
+        padding-left: 0.06rem;
+        width: 0.8rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      input {
+        margin: 0;
+        padding: 0;
+        padding-left: 0.06rem;
+        color: #F0F0F0;
+        font-size: 0.12rem;
+        cursor: pointer;
+      }
+      .vs__actions {
+        .vs__clear {
+          display: none;
+          svg {
+            fill: #F0F0F0;
+            font-weight: lighter;
+          }
+        }
+        .vs__open-indicator {
+          fill: #F0F0F0;
+          font-weight: lighter;
+        }
+        .select-arrow {
+          display: block;
+          width: 0.1rem;
+          height: 0.1rem;
+          background-image: url('../image/select_arrow.png');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+        }
+      }
+    }
+    ul {
+      min-width: 1.2rem;
+      max-height: 1.4rem;
+      top: calc(100%  + 0.04rem);
+      background-color: #21324D;
+      overflow-y: scroll;
+      li {
+        min-width: 1.2rem;
+        color: #f0f0f0;
+        font-size: 0.12rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+//  switch开关样式重写
+.my-switch {
+  width: 40px;
+  height: 14px;
+  position: relative;
+  border: 1px solid #6F7480;
+  background-color: #6F7480;
+  box-shadow: #6F7480 0 0 0 0 inset;
+  border-radius: 14px;
+  background-clip: content-box;
+  display: inline-block;
+  -webkit-appearance: none;
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+  &:before {
+      content: '';
+      width: 18px;
+      height: 18px;
+      position: absolute;
+      top: -3px;
+      left: -2px;
+      border-radius: 18px;
+      background-color: #A3D0FD;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+  &:checked {
+      border-color: #3AC26F;
+      box-shadow: #3AC26F 0 0 0 16px inset;
+      background-color: #3AC26F;
+  }
+  &:checked:before {
+      left: 22px;
+  }
+  &.switch-anim {
+      transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s;
+      &:before {
+          transition: left 0.3s;
+      }
+      :checked {
+          box-shadow: #3AC26F 0 0 0 16px inset;
+          background-color: #3AC26F;
+          transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s;
+          &:before {
+              transition: left 0.3s;
+          }
+      }
+  }
+}
+
+.my-date-picker {
+  &.mx-datepicker {
+    &.mx-datepicker-range {
+      width: 2.4rem;
+      .mx-input-wrapper {
+        width: 2.4rem;
+        border: 1px solid #3E495E;
+        &:hover {
+          border-color: #2EABFF;
+        }
+        .mx-input {
+          background-color: transparent;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          background-position: center center;
+          border-radius: 0;
+          color: #fff;
+          font-size: 0.14rem;
+          border: none;
+        }
+        svg {
+          fill: #fff;
+        }
+      }
+    }
+    .mx-input-wrapper {
+      width: 3.2rem;
+      border: 1px solid #3E495E;
+      &:hover {
+        border-color: #2EABFF;
+      }
+      .mx-input {
+        background-color: transparent;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 0;
+        color: #fff;
+        font-size: 0.14rem;
+        border: none;
+      }
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+}
+.mx-datepicker-main {
+  &.mx-datepicker-popup {
+    background-color: #21324D;
+    border: 1px solid #637497;
+    .mx-datepicker-content {
+      .mx-datepicker-body {
+        .mx-range-wrapper {
+          .mx-calendar + .mx-calendar {
+            border-left: 1px solid #637497;
+          }
+        }
+      }
+    }
+  }
+}
+
+/** 视频播放器样式 */
+.video-js {
+  position: relative;
+  .vjs-big-play-button {
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+  }
+}
+.vjs-modal-dialog-content {
+  display: none!important;
+}
+.vjs-error .vjs-error-display:before {
+  display: none!important;
+}

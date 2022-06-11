@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="14px" viewBox="0 0 53 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>菜单标题装饰</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新首页备份" transform="translate(-625.000000, -42.000000)" fill="#396FAD">
+            <g id="菜单栏" transform="translate(625.000000, 29.000000)">
+                <g id="菜单标题装饰" transform="translate(0.000000, 13.000000)">
+                    <path d="M53,0 L43.9527643,14 L42,14 L51.0472357,0 L53,0 Z M46,0 L36.9527643,14 L35,14 L44.0472357,0 L46,0 Z M39,0 L29.9527643,14 L28,14 L37.0472357,0 L39,0 Z M32,0 L22.9527643,14 L21,14 L30.0472357,0 L32,0 Z M25,0 L15.9527643,14 L14,14 L23.0472357,0 L25,0 Z M18,0 L8.95276435,14 L7,14 L16.0472357,0 L18,0 Z M11,0 L1.95276435,14 L0,14 L9.04723565,0 L11,0 Z" id="形状结合"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

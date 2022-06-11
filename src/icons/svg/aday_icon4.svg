@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="44px" viewBox="0 0 46 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon-高粱 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="3" width="46" height="38"></rect>
+        <filter x="-8.7%" y="-10.5%" width="117.4%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="4" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0691049408   0 0 0 0 0.28610826   0 0 0 0 0.581097147  0 0 0 0.7 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="99.6633709%" y1="1.09409533%" x2="0.381943059%" y2="98.8485519%" id="linearGradient-3">
+            <stop stop-color="#00BAFF" offset="0.0263935811%"></stop>
+            <stop stop-color="#2BEDE8" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-4" points="0.118766197 0.106985915 8.74697746 0.106985915 8.74697746 17.2294479 0.118766197 17.2294479"></polygon>
+        <linearGradient x1="62.6175084%" y1="0.310378155%" x2="37.3939962%" y2="99.6313876%" id="linearGradient-6">
+            <stop stop-color="#2BEDE8" offset="0%"></stop>
+            <stop stop-color="#00BAFF" offset="99.9736064%"></stop>
+        </linearGradient>
+        <linearGradient x1="99.6633709%" y1="22.2233966%" x2="0.381943059%" y2="77.7440293%" id="linearGradient-7">
+            <stop stop-color="#00BAFF" offset="0.0263935811%"></stop>
+            <stop stop-color="#2BEDE8" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-8" points="0 0.130056338 23.9061972 0.130056338 23.9061972 5.70228169 0 5.70228169"></polygon>
+        <linearGradient x1="100%" y1="47.2835612%" x2="0.30310508%" y2="52.699271%" id="linearGradient-10">
+            <stop stop-color="#52EDC4" offset="0%"></stop>
+            <stop stop-color="#36C0E3" offset="99.9736064%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="39.134252%" x2="0.145077646%" y2="60.831414%" id="linearGradient-11">
+            <stop stop-color="#52EDC4" offset="0%"></stop>
+            <stop stop-color="#36C0E3" offset="99.9736064%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="农林农况" transform="translate(-276.000000, -909.000000)">
+            <g id="编组-2" transform="translate(20.000000, 90.000000)">
+                <g id="编组-4" transform="translate(30.000000, 72.000000)">
+                    <g id="金额2" transform="translate(226.000000, 742.000000)">
+                        <g id="icon-高粱-2" transform="translate(0.000000, 5.000000)">
+                            <polygon id="矩形" fill="#417FC8" points="7.27623517e-12 0 46 0 46 1 7.27623517e-12 1"></polygon>
+                            <polygon id="矩形" fill="#417FC8" points="0 43 46 43 46 44 0 44"></polygon>
+                            <g id="矩形">
+                                <use fill="#0D162C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="icon-高粱" transform="translate(11.000000, 10.000000)">
+                                <path d="M13.4881183,0.802783099 L19.9417521,7.20689577 C20.7900338,8.04858592 20.7900338,9.4152338 19.9417521,10.257093 L13.4881183,16.6610366 C12.6396676,17.5028958 11.2632169,17.5028958 10.4147662,16.6610366 L3.96130141,10.257093 C3.1128507,9.4152338 3.1128507,8.04858592 3.96130141,7.20689577 L10.4147662,0.802783099 C11.2632169,-0.0389070423 12.6396676,-0.0389070423 13.4881183,0.802783099" id="Fill-1" fill="url(#linearGradient-3)"></path>
+                                <g id="编组" transform="translate(11.830986, 0.062028)">
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
+                                    </mask>
+                                    <g id="Clip-4"></g>
+                                    <path d="M1.65713239,16.5990254 C1.2312169,17.0215606 0.67668169,17.2294479 0.118766197,17.2294479 L0.118766197,0.106969014 C0.67668169,0.106969014 1.2312169,0.31823662 1.65713239,0.737391549 L8.1107662,7.14150423 C8.95904789,7.98319437 8.95904789,9.34984225 8.1107662,10.1917014 L1.65713239,16.5990254 Z" id="Fill-3" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+                                </g>
+                                <path d="M3.83584225,9.03561127 L19.8624338,9.03561127 C21.0575324,9.03561127 22.0280113,9.99628732 22.0280113,11.1812451 C22.0280113,11.1812451 22.4603493,14.9213577 22.4603493,18.044231 C22.4603493,20.0049634 22.0280113,21.9031606 22.0280113,21.9031606 C22.0280113,23.0882873 21.0575324,24.0487944 19.8624338,24.0487944 C19.8624338,24.0487944 15.9705465,24.9070479 12.065307,24.9070479 C7.96215211,24.9070479 3.83584225,24.0487944 3.83584225,24.0487944 C2.64091268,24.0487944 1.67026479,23.0882873 1.67026479,21.9031606 C1.67026479,21.9031606 1.23792676,20.1866535 1.23792676,18.044231 C1.23792676,14.9906535 1.67026479,11.1812451 1.67026479,11.1812451 C1.67026479,9.99628732 2.64091268,9.03561127 3.83584225,9.03561127" id="Fill-5" fill="url(#linearGradient-7)"></path>
+                                <g id="编组" transform="translate(0.000000, 7.667662)">
+                                    <mask id="mask-9" fill="white">
+                                        <use xlink:href="#path-8"></use>
+                                    </mask>
+                                    <g id="Clip-8"></g>
+                                    <path d="M2.17210141,0.130056338 C2.17210141,0.130056338 7.24590423,0.988309859 12.1709746,0.988309859 C17.0269183,0.988309859 21.7341296,0.130056338 21.7341296,0.130056338 C22.9358197,0.130056338 23.9062986,1.08735211 23.9062986,2.27247887 L23.9062986,2.70160563 C23.9062986,3.88335211 22.9324394,4.84402817 21.7341296,4.84402817 C21.7341296,4.84402817 16.9773972,5.70228169 12.1709746,5.70228169 C7.19959437,5.70228169 2.17210141,4.84402817 2.17210141,4.84402817 C0.970580282,4.84402817 -7.55246456e-05,3.88673239 -7.55246456e-05,2.70160563 L-7.55246456e-05,2.27247887 C-0.00327887324,1.09073239 0.970580282,0.130056338 2.17210141,0.130056338" id="Fill-7" fill="url(#linearGradient-10)" mask="url(#mask-9)"></path>
+                                </g>
+                                <path d="M21.7308676,12.5083268 C21.7308676,12.5083268 16.9739662,13.3665803 12.1677127,13.3665803 L11.9498535,13.3665803 L11.9498535,8.65277746 L12.1677127,8.65277746 C17.0234873,8.65277746 21.7308676,7.79435493 21.7308676,7.79435493 C22.9323887,7.79435493 23.9030445,8.7516507 23.9030445,9.93677746 L23.9030445,10.3659042 C23.9062479,11.551031 22.9323887,12.5083268 21.7308676,12.5083268" id="Fill-9" fill="url(#linearGradient-11)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

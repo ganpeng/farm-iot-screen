@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>icon_male</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="农业资产-聚成-管理-成员" transform="translate(-318.000000, -179.000000)">
+            <g id="王宏智" transform="translate(120.000000, 160.000000)">
+                <g id="icon_male" transform="translate(198.000000, 19.000000)">
+                    <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+                    <polyline id="路径" stroke="#A3D0FD" stroke-width="2" points="20.9757 7.52425 20.9757 3.02423 16.4757 3.02423"></polyline>
+                    <path d="M5.2065,19.0005 C7.94015,21.73415 12.37235,21.73415 15.106,19.0005 C16.47285,17.63365 17.1562513,15.8422 17.1562513,14.05075 C17.1562513,12.2593 16.47285,10.46785 15.106,9.101 C12.37235,6.3673 7.94015,6.3673 5.2065,9.101 C2.472835,11.83465 2.472835,16.2668 5.2065,19.0005 Z" id="路径" stroke="#A3D0FD" stroke-width="2"></path>
+                    <line x1="14.99995" y1="9" x2="19.97575" y2="4.02425" id="路径" stroke="#A3D0FD" stroke-width="2"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
