@@ -265,14 +265,14 @@ export const getStatisticsAll = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/farm?${paramsStr}`);
+  return service.get(`/v1/statistics/farm?${paramsStr}`);
 };
 
 export const getStatisticsPlant = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/planting/overView?${paramsStr}`);
+  return service.get(`/v1/statistics/planting/overView?${paramsStr}`);
 };
 
 // 首页耕地类型统计
@@ -280,35 +280,35 @@ export const getLandStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/land?${paramsStr}`);
+  return service.get(`/v1/statistics/land?${paramsStr}`);
 };
 // 首页物环设备统计
 export const getDeviceStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/device?${paramsStr}`);
+  return service.get(`/v1/statistics/device?${paramsStr}`);
 }
 // 首页经营情况统计
 export const getOperatingStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/operating?${paramsStr}`);
+  return service.get(`/v1/statistics/operating?${paramsStr}`);
 };
 // 首页人员统计
 export const getMemberStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/member?${paramsStr}`);
+  return service.get(`/v1/statistics/member?${paramsStr}`);
 };
 // 首页农机具统计
 export const getMachineryStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/statistics/machinery?${paramsStr}`);
+  return service.get(`/v1/statistics/machinery?${paramsStr}`);
 };
 
 // 获取农场摄像头的列表
@@ -398,7 +398,7 @@ export const getTraceConfirm = (params) => {
 // 销售统计接口
 // 今日已售金额
 export const getAmountSoldToday = (type) => {
-  return service.get(`/board/v1/ecstatistics/amountSoldToday?type=${type}`);
+  return service.get(`/v1/ecstatistics/amountSoldToday?type=${type}`);
 };
 
 //购买力top5
@@ -406,7 +406,7 @@ export const getCityPurchasPower = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/cityPurchasPower?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/cityPurchasPower?${paramsStr}`);
 };
 
 // 城市购买力地图
@@ -414,7 +414,7 @@ export const getCityPurchasPowerMap = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/cityPurchasPowerMap?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/cityPurchasPowerMap?${paramsStr}`);
 };
 
 // 商品分类销售额
@@ -422,7 +422,7 @@ export const getGoodsCategoryAmount = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/goodsCategoryAmount?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/goodsCategoryAmount?${paramsStr}`);
 };
 
 // 商品分类销售额曲线
@@ -430,7 +430,7 @@ export const getGoodsCategoryAmountCurve = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/goodsCategoryAmountCurve?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/goodsCategoryAmountCurve?${paramsStr}`);
 };
 
 // 热卖商品金额TOP5
@@ -438,7 +438,7 @@ export const getHotMoneyTopFive = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/hotMoneyTopFive?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/hotMoneyTopFive?${paramsStr}`);
 };
 
 // 农场销量排行
@@ -446,7 +446,7 @@ export const getMoneyTopFive = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/moneyTopFive?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/moneyTopFive?${paramsStr}`);
 };
 
 // 下单金额
@@ -454,7 +454,7 @@ export const getOrderAmount = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/orderAmount?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/orderAmount?${paramsStr}`);
 };
 
 // 下单量
@@ -462,7 +462,7 @@ export const getOrderNum = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/orderNum?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/orderNum?${paramsStr}`);
 };
 
 // 客单价分布
@@ -470,12 +470,12 @@ export const getUnitPrice = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/unitPrice?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/unitPrice?${paramsStr}`);
 };
 
 // 会员数统计
 export const getMemeberTotal = (type) => {
-  return service.get(`/board/v1/ecstatistics/memeberTotal?type=${type}`);
+  return service.get(`/v1/ecstatistics/memeberTotal?type=${type}`);
 }
 
 // 用户统计
@@ -483,7 +483,7 @@ export const getUserStatistics = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/memberStatistics?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/memberStatistics?${paramsStr}`);
 };
 
 // 平台销量
@@ -491,7 +491,7 @@ export const getClientTypeTotal = (params) => {
   let paramsStr = qs.stringify(_.pickBy(params, (item) => {
     return item !== '' && item !== undefined;
   }));
-  return service.get(`/board/v1/ecstatistics/clientTypeTotal?${paramsStr}`);
+  return service.get(`/v1/ecstatistics/clientTypeTotal?${paramsStr}`);
 };
 
 // 获取预警通知
@@ -506,7 +506,7 @@ export const getNoticeList = (params) => {
  * 登录
  */
 export const login = ({captcha, mobile, password}) => {
-  return service.post(`/board/v1/auth/login`, {captcha, mobile, password});
+  return service.post(`/v1/auth/login`, {captcha, mobile, password});
 };
 
 /**
@@ -537,7 +537,7 @@ export const getTimeLapseDateList = (streamName) => {
 
 export const getControllerRun = (obj) => {
   let {id, deviceName, commandList} = obj;
-  return service.post(`/board/v1/controller/run?id=${id}&deviceName=${deviceName}`, commandList);
+  return service.post(`/v1/controller/run?id=${id}&deviceName=${deviceName}`, commandList);
 };
 
 //  获取虫情截图列表
