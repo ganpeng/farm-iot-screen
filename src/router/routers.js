@@ -7,7 +7,7 @@ Vue.use(Router);
 export const constantRouterMap = [
   {
     path: '/',
-    redirect: '/login'
+    redirect: '/home'
   },
   {
     path: '/login',
